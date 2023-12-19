@@ -1,8 +1,5 @@
 import React from 'react'
 import './Skills.css'
-import FloatingDiv from '../FloatingDiv/FloatingDiv';
-import C from '../../img/C++.png'
-import Python from '../../img/python.png'
 const Skills = () => {
     return (
         <div className= "Skills">
