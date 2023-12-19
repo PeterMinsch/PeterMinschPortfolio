@@ -1,0 +1,39 @@
+.card {
+  width: 13rem;
+  height: 16rem;
+  position: relative;
+  background: rgba(255, 255, 255, 0.26);
+  border: 7px solid var(--orangeCard);
+  box-shadow: var(--boxShadow);
+  border-radius: 20px;
+  padding: 1rem;
+  overflow: hidden; /* Ensure the content doesn't overflow */
+}
+
+.card .image img {
+  width: 100%;
+  height: auto;
+  transform: scale(1); /* Initial scale */
+  transition: transform 0.3s ease; /* Add transition for smooth scaling */
+}
+
+.card:hover  {
+  transform: scale(1.03);
+  box-shadow: 0 0 500px rgba(0, 0, 0, 0.2);
+}
+
+.card span {
+  display: block;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 360px) {
+  .card {
+      width: auto;
+  }
+
+  .card:hover .image img {
+      transform: scale(1); /* Reset scaling on hover for small screens */
+  }
+}
