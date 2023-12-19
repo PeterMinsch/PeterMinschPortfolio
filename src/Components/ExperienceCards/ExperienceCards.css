@@ -1,0 +1,40 @@
+.experience-card {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid var(--orangeCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    padding: 2rem 26px 2rem 26px;
+    margin-top: 2rem;
+  }
+  .experience-card:hover{
+    transform: scale(1.01); 
+    box-shadow: 0 0 500px rgba(0, 0, 0, 0.2);
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .job {
+    font-weight: bold;
+  }
+
+  .date {
+    font-weight: bold;
+    font-size:medium;
+  }
+  .description {
+    margin-top: 10px;
+  }
+  
+  @media screen and (max-width: 360px) {
+    .experience-card{
+      flex-direction: column;
+      top: 30rem;
+      width: auto;
+    }
+
+  }
