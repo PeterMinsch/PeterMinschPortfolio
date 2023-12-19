@@ -1,7 +1,5 @@
 import React from 'react'
 import './AboutMe.css'
-import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
 import Card from '../Card/Card';
 import MeAndChandler from '../../img/MeAndChandler.jpg';
 import myFriends from '../../img/myFriends.jpg';
